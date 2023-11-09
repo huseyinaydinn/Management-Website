@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+    @apply text-neutral-900 bg-primary-50;
+  }
+  p {
+    @apply text-neutral-700;
+  }
+
+  .h1 {
+    @apply text-4xl leading-[45px]  font-bold;
+  }
+
+  .h2 {
+    @apply text-4xl mb-6 font-bold;
+  }
+
+  .h3 {
+    @apply text-xl mb-4 font-semibold;
+  }
+
+  .description {
+    @apply text-[18px] leading-7;
+  }
+
+  .section {
+    @apply w-full h-screen pt-[30px] xl:pt-[120px];
+  }
+
+  .btn {
+    @apply py-4 px-6 rounded-[8px] font-semibold text-[16px] flex justify-center items-center transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-primary  text-white  hover:bg-primary-hover w-[138px];
+  }
+
+  .btn-secondary {
+    @apply bg-transparent  text-primary w-[179px] hover:bg-primary-100  flex items-center gap-1;
+  }
+}
+
+.about-cloud {
+  background: url("./assets/icons/about/Vector.svg");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 300px;
+}
