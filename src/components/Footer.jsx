@@ -1,13 +1,14 @@
 import React from 'react'
 import PlayStoreBtn from '../assets/PlayStore.svg'
 import AppStoreBtn from '../assets/AppStore.svg'
+import Logo2 from '../assets/Logo2.svg'
 
 export const Footer = () => {
     return (
         <section className="w-full bg-black">
             <div className="container mx-auto py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between">
                 <div className="flex flex-col gap-6">
-                    <img src="src/assets/Logo2.svg" alt="Landify Logo" width={32} height={32} />
+                    <img src={Logo2} alt="Landify Logo" width={32} height={32} />
                     <div className="text-white">
                         <div className="flex flex-row gap-x-6 gap-y-3">
                             <a href="#">Download Now</a>

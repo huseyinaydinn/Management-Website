@@ -2,6 +2,13 @@ import achievements1 from '../assets/icons/about/achievements1.svg'
 import achievements2 from '../assets/icons/about/achievements2.svg'
 import achievements3 from '../assets/icons/about/achievements3.svg'
 import achievements4 from '../assets/icons/about/achievements4.svg'
+import brandLogo1 from '../assets/icons/about/1.svg'
+import brandLogo2 from '../assets/icons/about/2.svg'
+import brandLogo3 from '../assets/icons/about/3.svg'
+import brandLogo4 from '../assets/icons/about/4.svg'
+import brandLogo5 from '../assets/icons/about/5.svg'
+import brandLogo6 from '../assets/icons/about/6.svg'
+import brandLogo7 from '../assets/icons/about/7.svg'
 
 export const About = () => {
     return (
@@ -55,16 +62,16 @@ export const About = () => {
                 <div className="grid grid-row-2 about-cloud w-[400px] h-[200px] content-center gap-y-5 justify-center">
 
                     <div className="row-span-1 flex flex-row items-center justify-center gap-7">
-                        <a href="#"><img src="src/assets/icons/about/1.svg" alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
-                        <a href="#"><img src="src/assets/icons/about/2.svg" alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
-                        <a href="#"><img src="src/assets/icons/about/3.svg" alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
-                        <a href="#"><img src="src/assets/icons/about/4.svg" alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
+                        <a href="#"><img src={brandLogo1} alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
+                        <a href="#"><img src={brandLogo2} alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
+                        <a href="#"><img src={brandLogo3} alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
+                        <a href="#"><img src={brandLogo4} alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
                     </div>
 
                     <div className="row-span-1 flex items-center justify-center gap-7">
-                        <a href="#"><img src="src/assets/icons/about/5.svg" alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
-                        <a href="#"><img src="src/assets/icons/about/6.svg" alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
-                        <a href="#"><img src="src/assets/icons/about/7.svg" alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
+                        <a href="#"><img src={brandLogo5} alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
+                        <a href="#"><img src={brandLogo6} alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
+                        <a href="#"><img src={brandLogo7} alt="about brand icon" className="hover:-translate-y-1 transition-all duration-300" /></a>
                     </div>
                 </div>
             </div>
