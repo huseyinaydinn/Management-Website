@@ -7,6 +7,7 @@ import microsoft from '../assets/images/Brands/microsoft.svg'
 
 export const Brands = () => {
     return (
+        <div className="w-full flex justify-center">
         <div className="container flex flex-row flex-wrap items-center gap-x-16 gap-y-8 justify-center mt-4">
             <img src={airbnb} alt="" />
             <img src={hubspot} alt="" />
@@ -15,5 +16,6 @@ export const Brands = () => {
             <img src={walmart} alt="" />
             <img src={fedex} alt="" />
         </div>
+            </div>
     )
 }
